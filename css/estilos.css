@@ -1,0 +1,43 @@
+.masthead-subheading{
+  display: block;
+  font-family: monospace;
+  white-space: nowrap;
+  border-right: 4px solid;
+  width: 52ch;
+
+  animation: typing 2s steps(52),
+  blink .5s infinite step-end alternate;
+  overflow: hidden;
+}
+@keyframes typing {
+  from{
+    width: 0;
+  }
+}
+@keyframes blink {
+  50%{ border-color: transparent;}
+
+}
+.masthead .masthead-heading:hover{
+  font-weight: 700;
+  line-height: 1.5;
+  color: #F9F922;
+}
+.juliana{
+  background-image: url("../assets/fondo/binario.jpg");
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-attachment: fixed;
+  background-position:50% 50%;
+  filter: brightness(100%);
+}
+.titulo{
+  font-size: 1.30rem;
+  text-decoration: none;
+}
+.titulo:hover{
+  color: #F71C0B;
+}
+h4{
+  font-size: 1.25rem;
+}
